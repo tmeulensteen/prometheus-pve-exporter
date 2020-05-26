@@ -8,7 +8,7 @@ Running the docker container
 ------------
 
 
-    docker run -d --name prometheus-pve-exporter -p 9112:9112 -v <localfolder>:/usr/src/app/pve.yml tmeulensteen/prometheus-pve-exporter
+    docker run -d --name prometheus-pve-exporter -p 9221:9221 -v <localfolder>:/usr/src/app/ tommeulensteen/prometheus-pve-exporter
 
 > :warning: **You have to supply a pve.yml in the <localfolder> for the container to work**
 
